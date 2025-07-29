@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
     "name": "theme_app",
     "short_name": "theme_app",
+=======
+    "name": "car_list_app",
+    "short_name": "car_list_app",
+>>>>>>> 8e076119ac71f3d654adb9b23545158b7e2d9111
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

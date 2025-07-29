@@ -6,7 +6,11 @@ plugins {
 }
 
 android {
+<<<<<<< HEAD
     namespace = "com.example.theme_app"
+=======
+    namespace = "com.example.car_list_app"
+>>>>>>> 8e076119ac71f3d654adb9b23545158b7e2d9111
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
@@ -21,7 +25,11 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
+<<<<<<< HEAD
         applicationId = "com.example.theme_app"
+=======
+        applicationId = "com.example.car_list_app"
+>>>>>>> 8e076119ac71f3d654adb9b23545158b7e2d9111
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
         minSdk = flutter.minSdkVersion

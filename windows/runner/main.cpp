@@ -27,7 +27,11 @@ int APIENTRY wWinMain(_In_ HINSTANCE instance, _In_opt_ HINSTANCE prev,
   FlutterWindow window(project);
   Win32Window::Point origin(10, 10);
   Win32Window::Size size(1280, 720);
+<<<<<<< HEAD
   if (!window.Create(L"theme_app", origin, size)) {
+=======
+  if (!window.Create(L"car_list_app", origin, size)) {
+>>>>>>> 8e076119ac71f3d654adb9b23545158b7e2d9111
     return EXIT_FAILURE;
   }
   window.SetQuitOnClose(true);

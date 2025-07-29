@@ -1,33 +1,24 @@
 import 'package:flutter/material.dart';
-import 'package:theme_app/services/theme_sevices.dart';
-import 'package:theme_app/theme/app_theme.dart';
-import 'package:theme_app/ui/home_page.dart';
-import 'package:get/get.dart';
-import 'package:get_storage/get_storage.dart';
+import 'screens/home_screen.dart';    // Import HomeScreen
+import 'screens/details_screen.dart'; // Import DetailsScreen
+import 'screens/profile_screen.dart'; // Import ProfileScreen
 
-Future<void> main() async {
-  WidgetsFlutterBinding.ensureInitialized();
-  await GetStorage.init();
-
-  runApp(const MyApp());
-}
+void main() => runApp(const MyApp()); // Add const for MyApp
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+  const MyApp({super.key}); // Add const constructor
 
-  
   @override
   Widget build(BuildContext context) {
-    return GetMaterialApp(
-      title: 'Flutter Demo',
-      theme: AppTheme.light,
-      darkTheme: AppTheme.dark,
-      themeMode: ThemeService().theme,
-    
-      debugShowCheckedModeBanner: false,
-      home: HomePage()
-     
+    return MaterialApp(
+      title: 'Car List App',
+      theme: ThemeData(primarySwatch: Colors.blue),
+      initialRoute: '/',
+      routes: {
+        '/': (context) =>  HomeScreen(),      // Add const to screen widgets
+        '/details': (context) =>  DetailsScreen(),
+        '/profile': (context) =>  ProfileScreen(),
+      },
     );
   }
 }
-

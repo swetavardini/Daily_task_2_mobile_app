@@ -15,7 +15,11 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "33CC10EC2044A3C60003C045"
+<<<<<<< HEAD
                BuildableName = "theme_app.app"
+=======
+               BuildableName = "car_list_app.app"
+>>>>>>> 8e076119ac71f3d654adb9b23545158b7e2d9111
                BlueprintName = "Runner"
                ReferencedContainer = "container:Runner.xcodeproj">
             </BuildableReference>
@@ -31,7 +35,11 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "33CC10EC2044A3C60003C045"
+<<<<<<< HEAD
             BuildableName = "theme_app.app"
+=======
+            BuildableName = "car_list_app.app"
+>>>>>>> 8e076119ac71f3d654adb9b23545158b7e2d9111
             BlueprintName = "Runner"
             ReferencedContainer = "container:Runner.xcodeproj">
          </BuildableReference>
@@ -66,7 +74,11 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "33CC10EC2044A3C60003C045"
+<<<<<<< HEAD
             BuildableName = "theme_app.app"
+=======
+            BuildableName = "car_list_app.app"
+>>>>>>> 8e076119ac71f3d654adb9b23545158b7e2d9111
             BlueprintName = "Runner"
             ReferencedContainer = "container:Runner.xcodeproj">
          </BuildableReference>
@@ -83,7 +95,11 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "33CC10EC2044A3C60003C045"
+<<<<<<< HEAD
             BuildableName = "theme_app.app"
+=======
+            BuildableName = "car_list_app.app"
+>>>>>>> 8e076119ac71f3d654adb9b23545158b7e2d9111
             BlueprintName = "Runner"
             ReferencedContainer = "container:Runner.xcodeproj">
          </BuildableReference>
